@@ -1,0 +1,273 @@
+/*********************about***************/
+.feature_3r .progress-bar {
+background: #F9F9F9;
+border-radius: 0;
+}
+.feature_3r .progress {
+background-color: #b6702a;
+height: 6px;
+overflow: hidden;
+border-radius: 0;
+}
+
+.team_1im1i1{
+background:#000000c4;
+padding-top:60%;
+display:none;
+ }
+.team_1im1i2 ul li a{
+background: #fff;
+border-radius:0;
+ }
+.team_1im1i2 ul li a i{
+color:#b6702a;
+ }
+.team_1im1i2 {
+display:none;
+background:#000000c4;
+ }
+.team_1im:hover .team_1im1i2{
+display:block; 
+ }
+.team_1im:hover .team_1im1i1{
+display:block; 
+ }
+.testim_1i1 img{
+width:100px;
+height:100px; 
+ }
+
+
+
+
+ 
+/*********************about_end****************/
+
+@media screen and (max-width : 767px){
+.feature_3rir{
+margin-top:15px; 
+ }
+.feature_3rir h4{
+text-align:center;
+ }
+.feature_3ril{
+text-align:center;
+ }
+.feature_3l{
+margin-top:15px;  
+ }
+.proj_h1l{
+text-align:center; 
+ }
+.proj_h1r{
+text-align:center!important; 
+ }
+.team_1im{
+margin-top:8px;
+margin-bottom:8px; 
+ }
+.work_2r{
+text-align:center; 
+margin-top:15px;
+ }
+.work_2r ul{
+text-align:left;
+ }
+.about_pgir {
+margin-top:15px;  
+ }
+.testim_1i {
+margin-top:8px;
+margin-bottom:8px; 
+ }
+.pricing_1i{
+margin-top:8px;
+margin-bottom:8px; 
+ }
+ }
+
+
+@media (min-width:576px) and (max-width:767px) {
+.feature_3rir h4{
+text-align:left;
+ }
+.feature_3rir{
+margin-top:0; 
+ }
+ }
+ 
+@media (min-width:768px) and (max-width:991px) {
+.feature_3ril span{
+font-size:18px!important; 
+ }
+.feature_3rir p{
+font-size:14px; 
+ }
+.team_1im1i2 ul li a {
+width:30px;
+height:30px;
+font-size:14px;
+}
+.team_1im1i2 ul li a i{
+line-height:30px;
+}
+.team_1im2  h6{
+font-size:13px; 
+ }
+.team_1im2  h5{
+font-size:15px; 
+ }
+.testim_1i2  span{
+padding:10px!important;
+font-size:18px!important; 
+ }
+.pricing_1i  h5{
+font-size:16px; 
+ }
+.pricing_1i  .button_1{
+padding-left:12px;
+padding-right:12px;
+font-size:13px; 
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.pricing_1i  .button_1{
+padding-left:20px;
+padding-right:20px;
+font-size:14px; 
+ }
+ }
+@media (min-width:1201px) and (max-width:1310px) {
+
+ }
+
+
+
+/* Brand in pricing section */
+.brand-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+.brand-card:hover {
+    transform: translateY(-10px);
+}
+.brand-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.brand-card-body {
+    padding: 10px;
+}
+.brand-card-title {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+#brands .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#brands .col-md-3 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+/* Discover more Section */
+ /* Section styles */
+ .uk-section {
+    height: 500px; /* Adjust this value to your desired static height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    color: #f2f2f2;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+/* Text styles */
+.uk-h2, .uk-panel.uk-margin {
+    color: #f2f2f2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Button styles */
+#our-best-solutions {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+.discover-more-button {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid #f2f2f2;
+    border-radius: 50%;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.discover-more-button:hover {
+    color: #000;
+    background-color: #f2f2f2;
+}
+
+.hover-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 70%);
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: 0;
+}
+
+#our-best-solutions:hover .hover-circle {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* Additional styles */
+.uk-container-small {
+    text-align: center;
+}
+
+.tm-grid-expand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Ensure background image fits within the section */
+.uk-background-cover {
+    background-size: cover;
+    background-position: center;
+}

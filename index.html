@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rangoli CERA</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+<div class="main position-relative">
+    <div class="main_1 position-absolute top-0 w-100">
+        <section id="header">
+			<nav class="navbar navbar-expand-md navbar-light p-0 px-3" id="navbar_sticky">
+				<div class="container-fluid">
+					<a class="text-white p-0 navbar-brand fw-bold me-0" href="index.html">
+						<img src="./img/image.png" alt="Company Logo" style="height: 130px;"> <!-- Adjust the height as needed -->
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mb-0 ms-auto">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">About</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Product
+								</a>
+								<ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="shop.html">Product</a></li>
+									<li><a class="dropdown-item border-0" href="detail.html">Product Detail</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="pricing.html">Pricing</a>
+							</li>
+							<!-- <li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Pages
+								</a>
+								<ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="cart.html">Shopping Cart</a></li>
+									<li><a class="dropdown-item border-0" href="checkout.html">Checkout</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</section>
+		
+    </div>
+    <div class="main_2">
+        <section id="center" class="center_home">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <video class="d-block w-100" autoplay loop muted>
+                            <source src="./Assets/Carousel/1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="carousel-caption d-md-block">
+                            <h5 class="text-uppercase col_light">Welcome to Rangoli CERA</h5>
+                            <h1 class="mt-3 mb-3">Beautifully Crafted, <br> Designed to Last</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, facere, quibusdam rerum <br>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi quae molestiae, quod modi.</p>
+                            <h6 class="mb-0 mt-4"><a class="button" href="#">Find more</a></h6>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <video class="d-block w-100" autoplay loop muted>
+                            <source src="./Assets/Carousel/2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="carousel-caption d-md-block">
+                            <h5 class="text-uppercase col_light">Welcome to Rangoli CERA</h5>
+                            <h1 class="mt-3 mb-3">Lorem Ipsum, <br> Sit Dolor Amet</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, facere, quibusdam rerum <br>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi quae molestiae, quod modi.</p>
+                            <h6 class="mb-0 mt-4"><a class="button" href="#">Find more</a></h6>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <video class="d-block w-100" autoplay loop muted>
+                            <source src="./Assets/Carousel/6.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="carousel-caption d-md-block">
+                            <h5 class="text-uppercase col_light">Welcome to Rangoli CERA</h5>
+                            <h1 class="mt-3 mb-3">Sed Augue, <br> Nulla Quis Porta</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, facere, quibusdam rerum <br>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi quae molestiae, quod modi.</p>
+                            <h6 class="mb-0 mt-4"><a class="button" href="#">Find more</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </div>
+</div>
+
+<section id="about_h" class="p_3">
+ <div class="container-xl">
+  <div class="row about_h1">
+    <div class="col-md-6">
+	  <div class="about_h1l">
+	    <h1 class="font_50">Premium Flooring</h1>
+		<p class="mt-3">We are committed to providing our customers with super exceptional service while offering our employees the best training and a working environment in which they can excel best of all place for more than a half century.</p>
+		<p>This company focus has been in place for more than a half century. We are committed to providing our customers with exceptional service while offering our employees the best training best of all and a working environment.</p>
+		<h6 class="mb-0 mt-4"><a class="button_1" href="#">Find more</a></h6>
+	  </div>
+	</div>
+	<div class="col-md-6">
+	  <div class="about_h1r position-relative">
+	     <div class="about_h1ri text-end">
+		   <img alt="abc" src="./Assets/OFS img 6.jpg">
+		 </div>
+		 <div class="about_h1ri1 position-absolute">
+		    <img alt="abc" src="./Assets/MainProducts/interior-cement-tile-1.jpg">
+		 </div>
+	  </div>
+	</div>
+  </div>
+ </div>
+</section>
+
+
+<section id="proj" class="pb-4 bg-dark">
+ <div class="container-fluid">
+  <div class="row proj_1">
+    <div class="col-md-4 p-0">
+	  <div class="proj_1l position-relative">
+	   <div class="proj_1l1">
+	     <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img src="./Assets/MainProducts/10.jpeg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+	  </div>
+	  <div class="proj_1l2 bg_back px-4  position-absolute w-100 h-100 top-0">
+	    <h3><a class="text-white" href="#">Mumbai Mega Project</a></h3>
+		<h6 class="text-uppercase mb-0 text-light">DESIGN INTERIOR OFFICE</h6>
+	  </div>
+	  <div class="proj_1l3 px-4 bg_back  position-absolute">
+	     <h3><a class="text-white" href="#">Mumbai Mega Project</a></h3>
+		<h6 class="text-uppercase mb-0 text-light">DESIGN INTERIOR OFFICE</h6>
+	  </div>
+	  </div>
+	</div>
+	<div class="col-md-4 p-0">
+	  <div class="proj_1l position-relative">
+	   <div class="proj_1l1">
+	     <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img src="./Assets/MainProducts/8.jpeg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+	  </div>
+	  <div class="proj_1l2 bg_back px-4  position-absolute w-100 h-100 top-0">
+	    <h3><a class="text-white" href="#">Pune Mega Project</a></h3>
+		<h6 class="text-uppercase mb-0 text-light">DESIGN INTERIOR</h6>
+	  </div>
+	  <div class="proj_1l3 px-4 bg_back  position-absolute">
+	     <h3><a class="text-white" href="#">Pune Mega Project</a></h3>
+		<h6 class="text-uppercase mb-0 text-light">DESIGN INTERIOR</h6>
+	  </div>
+	  </div>
+	</div>
+	<div class="col-md-4 p-0">
+	  <div class="proj_1l position-relative">
+	   <div class="proj_1l1">
+	     <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img src="./Assets/MainProducts/10.jpeg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+	  </div>
+	  <div class="proj_1l2 bg_back px-4  position-absolute w-100 h-100 top-0">
+	    <h3><a class="text-white" href="#">Mall Mega Project</a></h3>
+		<h6 class="text-uppercase mb-0 text-light">INTERIOR OFFICE</h6>
+	  </div>
+	  <div class="proj_1l3 px-4 bg_back  position-absolute">
+	     <h3><a class="text-white" href="#">Mall Mega Project</a></h3>
+		<h6 class="text-uppercase mb-0 text-light">INTERIOR OFFICE</h6>
+	  </div>
+	  </div>
+	</div>
+  </div>
+  <div class="row proj_2 mt-4 text-center">
+   <div class="col-md-12">
+     <!-- <h6 class="mb-0"><a class="button" href="#">Find more</a></h6> -->
+   </div>
+  </div>
+ </div>
+</section>
+
+
+<section id="serv_h" class="p_3">
+ <div class="container-xl">
+  <div class="row serv_h1 mb-4">
+     <div class="col-md-12">
+	  <h1 class="mb-0 font_50">Professional Services</h1>
+	  <hr class="mb-0 line">
+	 </div>
+  </div>
+  <div class="row about_pgo">
+    <div class="col-md-4">
+	 <div class="about_pgoi p-5 px-4 border_1">
+	  <span class="font_60 col_brow lh-1"><i class="fa fa-edit"></i></span>
+	  <h6 class="mt-3 fs-5 fw-bold">Imported Tiles</h6>
+	  <p class="mb-0 mt-3">Lorem ipsum dolor sit. amet, consecteteur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consecteur adipiscing elit.</p>
+	 </div>
+	</div>
+	<div class="col-md-4">
+	 <div class="about_pgoi p-5 px-4 border_1">
+	  <span class="font_60 col_brow lh-1"><i class="fa fa-home"></i></span>
+	  <h6 class="fs-5 mt-3 fw-bold">Kitchen Tiles</h6>
+	  <p class="mb-0 mt-3">Lorem ipsum dolor sit. amet, consecteteur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consecteur adipiscing elit.</p>
+	 </div>
+	</div>
+	<div class="col-md-4">
+	 <div class="about_pgoi p-5 px-4 border_1">
+	  <span class="font_60 col_brow lh-1"><i class="fa fa-user-plus"></i></span>
+	  <h6 class="fs-5 mt-3 fw-bold">Skilled Team</h6>
+	  <p class="mb-0 mt-3">Lorem ipsum dolor sit. amet, consecteteur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consecteur adipiscing elit.</p>
+	 </div>
+	</div>
+  </div>
+  <div class="row about_pgo mt-4">
+	<div class="col-md-4">
+	 <div class="about_pgoi p-5 px-4 border_1">
+	  <span class="font_60 col_brow lh-1"><i class="fa fa-warning"></i></span>
+	  <h6 class="fs-5 mt-3 fw-bold">Trusted Work</h6>
+	  <p class="mb-0 mt-3">Lorem ipsum dolor sit. amet, consecteteur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consecteur adipiscing elit.</p>
+	 </div>
+	</div>
+	<div class="col-md-4">
+	 <div class="about_pgoi p-5 px-4 border_1">
+	  <span class="font_60 col_brow lh-1"><i class="fa fa-money"></i></span>
+	  <h6 class="fs-5 mt-3 fw-bold">Permium Work</h6>
+	  <p class="mb-0 mt-3">Lorem ipsum dolor sit. amet, consecteteur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consecteur adipiscing elit.</p>
+	 </div>
+	</div>
+	<div class="col-md-4">
+	 <div class="about_pgoi p-5 px-4 border_1">
+	  <span class="font_60 col_brow lh-1"><i class="fa fa-trophy"></i></span>
+	  <h6 class="fs-5 mt-3 fw-bold">Quality Work</h6>
+	  <p class="mb-0 mt-3">Lorem ipsum dolor sit. amet, consecteteur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consecteur adipiscing elit.</p>
+	 </div>
+	</div>
+  </div>
+ </div>
+</section>
+
+<section id="list" class="p_3">
+ <div class="container-xl">
+  <div class="row serv_h1 mb-4">
+     <div class="col-md-12">
+	  <h1 class="mb-0 font_50">Latest Products</h1>
+	  <hr class="mb-0 line">
+	 </div>
+  </div>
+ <div class="shop_1r1 row">
+	    <div class="col-md-3 col-sm-6">
+		 <div class="shop_1r1l border_1">
+		   <div class="shop_1r1l1 position-relative">
+		     <div class="shop_1r1l1i">
+			   <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="detail.html"><img src="./Assets/OFS img 7.jpg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+			 </div>
+			 <div class="shop_1r1l1i1 position-absolute top-0 text-end w-100 p-4 h-100">
+			   <ul class="mb-0">
+			    <li><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-heart-o"></i></a></li>
+				 <li class="mt-2"><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-eye"></i></a></li>
+				  <li class="mt-2"><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-share-alt"></i></a></li>
+			   </ul>
+			 </div>
+		   </div>
+		   <div class="shop_1r1l2 text-center p-4">
+		    <span class="col_brow font_14">
+			 <!-- <i class="fa fa-star"></i>
+			 <i class="fa fa-star"></i>
+			 <i class="fa fa-star"></i>
+			 <i class="fa fa-star"></i>
+			 <i class="fa fa-star"></i> -->
+			</span>
+		    <h5 class="fw-bold mt-2"><a href="detail.html">Indian Tiles</a></h5>
+			<!-- <h2 class="col_brow">$50.00</h2> -->
+			<!-- <h6 class="mb-0 mt-3"><a class="button_1 px-4" href="detail.html">Add To Cart <i class="fa fa-long-arrow-right ms-1"></i></a></h6> -->
+		   </div>
+		 </div>
+		</div>
+		<div class="col-md-3 col-sm-6">
+		 <div class="shop_1r1l border_1">
+		   <div class="shop_1r1l1 position-relative">
+		     <div class="shop_1r1l1i">
+			   <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="detail.html"><img src="./Assets/OFS tile4.jpg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+			 </div>
+			 <div class="shop_1r1l1i1 position-absolute top-0 text-end w-100 p-4 h-100">
+			   <ul class="mb-0">
+			    <li><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-heart-o"></i></a></li>
+				 <li class="mt-2"><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-eye"></i></a></li>
+				  <li class="mt-2"><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-share-alt"></i></a></li>
+			   </ul>
+			 </div>
+		   </div>
+		   <div class="shop_1r1l2 text-center p-4">
+		
+		    <h5 class="fw-bold mt-2"><a href="detail.html">Imported Tiles</a></h5>
+			<!-- <h2 class="col_brow">$40.00</h2> -->
+			<!-- <h6 class="mb-0 mt-3"><a class="button_1 px-4" href="detail.html">Add To Cart <i class="fa fa-long-arrow-right ms-1"></i></a></h6> -->
+		   </div>
+		 </div>
+		</div>
+		<div class="col-md-3 col-sm-6">
+		 <div class="shop_1r1l border_1">
+		   <div class="shop_1r1l1 position-relative">
+		     <div class="shop_1r1l1i">
+			   <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="detail.html"><img src="./Assets/OFS img 8.jpg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+			 </div>
+			 <div class="shop_1r1l1i1 position-absolute top-0 text-end w-100 p-4 h-100">
+			   <ul class="mb-0">
+			    <li><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-heart-o"></i></a></li>
+				 <li class="mt-2"><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-eye"></i></a></li>
+				  <li class="mt-2"><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-share-alt"></i></a></li>
+			   </ul>
+			 </div>
+		   </div>
+		   <div class="shop_1r1l2 text-center p-4">
+		   
+		    <h5 class="fw-bold mt-2"><a href="detail.html">Sinks</a></h5>
+			<!-- <h2 class="col_brow">$45.00</h2> -->
+			
+		   </div>
+		 </div>
+		</div>
+		<div class="col-md-3 col-sm-6">
+		 <div class="shop_1r1l border_1">
+		   <div class="shop_1r1l1 position-relative">
+		     <div class="shop_1r1l1i">
+			   <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="detail.html"><img src="./Assets/OFS img 5.jpg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+			 </div>
+			 <div class="shop_1r1l1i1 position-absolute top-0 text-end w-100 p-4 h-100">
+			   <ul class="mb-0">
+			    <li><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-heart-o"></i></a></li>
+				 <li class="mt-2"><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-eye"></i></a></li>
+				  <li class="mt-2"><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-share-alt"></i></a></li>
+			   </ul>
+			 </div>
+		   </div>
+		   <div class="shop_1r1l2 text-center p-4">
+		   
+		    <h5 class="fw-bold mt-2"><a href="detail.html">Sanitary Products</a></h5>
+			<!-- <h2 class="col_brow">$55.00</h2> -->
+		
+		   </div>
+		 </div>
+		</div>
+	   </div>
+	   <div class="shop_1r1 row mt-4">
+	    <div class="col-md-3 col-sm-6">
+		 <div class="shop_1r1l border_1">
+		   <div class="shop_1r1l1 position-relative">
+		     <div class="shop_1r1l1i">
+			   <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="detail.html"><img src="./Assets/PRoduct/8.jpg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+			 </div>
+			 <div class="shop_1r1l1i1 position-absolute top-0 text-end w-100 p-4 h-100">
+			   <ul class="mb-0">
+			    <li><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-heart-o"></i></a></li>
+				 <li class="mt-2"><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-eye"></i></a></li>
+				  <li class="mt-2"><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-share-alt"></i></a></li>
+			   </ul>
+			 </div>
+		   </div>
+		   <div class="shop_1r1l2 text-center p-4">
+		  
+		    <h5 class="fw-bold mt-2"><a href="detail.html">Adhesives</a></h5>
+			<!-- <h2 class="col_brow">$58.00</h2> -->
+			
+		   </div>
+		 </div>
+		</div>
+		<div class="col-md-3 col-sm-6">
+		 <div class="shop_1r1l border_1">
+		   <div class="shop_1r1l1 position-relative">
+		     <div class="shop_1r1l1i">
+			   <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="detail.html"><img src="./Assets/PRoduct/6.jpg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+			 </div>
+			 <div class="shop_1r1l1i1 position-absolute top-0 text-end w-100 p-4 h-100">
+			   <ul class="mb-0">
+			    <li><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-heart-o"></i></a></li>
+				 <li class="mt-2"><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-eye"></i></a></li>
+				  <li class="mt-2"><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-share-alt"></i></a></li>
+			   </ul>
+			 </div>
+		   </div>
+		   <div class="shop_1r1l2 text-center p-4">
+		    
+		    <h5 class="fw-bold mt-2"><a href="detail.html">Tiles</a></h5>
+			<!-- <h2 class="col_brow">$60.00</h2> -->
+			
+		   </div>
+		 </div>
+		</div>
+		<div class="col-md-3 col-sm-6">
+		 <div class="shop_1r1l border_1">
+		   <div class="shop_1r1l1 position-relative">
+		     <div class="shop_1r1l1i">
+			   <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="detail.html"><img src="./Assets/PRoduct/7.jpg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+			 </div>
+			 <div class="shop_1r1l1i1 position-absolute top-0 text-end w-100 p-4 h-100">
+			   <ul class="mb-0">
+			    <li><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-heart-o"></i></a></li>
+				 <li class="mt-2"><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-eye"></i></a></li>
+				  <li class="mt-2"><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-share-alt"></i></a></li>
+			   </ul>
+			 </div>
+		   </div>
+		   <div class="shop_1r1l2 text-center p-4">
+		    
+		    <h5 class="fw-bold mt-2"><a href="detail.html">Tiles</a></h5>
+			<!-- <h2 class="col_brow">$65.00</h2> -->
+			
+		   </div>
+		 </div>
+		</div>
+		<div class="col-md-3 col-sm-6">
+		 <div class="shop_1r1l border_1">
+		   <div class="shop_1r1l1 position-relative">
+		     <div class="shop_1r1l1i">
+			   <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="detail.html"><img src="./Assets/PRoduct/pexels-christa-grover-977018-1909656.jpg " class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+			 </div>
+			 <div class="shop_1r1l1i1 position-absolute top-0 text-end w-100 p-4 h-100">
+			   <ul class="mb-0">
+			    <li><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-heart-o"></i></a></li>
+				 <li class="mt-2"><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-eye"></i></a></li>
+				  <li class="mt-2"><a class="border_1 rounded-circle text-center" href="detail.html"><i class="fa fa-share-alt"></i></a></li>
+			   </ul>
+			 </div>
+		   </div>
+		   <div class="shop_1r1l2 text-center p-4">
+		   
+		    <h5 class="fw-bold mt-2"><a href="detail.html">Sinks</a></h5>
+			<!-- <h2 class="col_brow">$70.00</h2> -->
+			
+		   </div>
+		 </div>
+		</div>
+	   </div>
+ </div>
+</section>
+
+<section id="find">
+ <div class="container-fluid">
+   <div class="find_m position-relative">
+     <div class="find_m1">
+	   <div class="row find_1">
+     <div class="col-md-8 p-0">
+	   <div class="find_1l">
+	     <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img src="./Assets/carousal img 3.jpg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+	   </div>
+	 </div>
+	 <div class="col-md-4 p-0">
+	   <div class="find_1r"></div>
+	 </div>
+   </div>
+	 </div>
+	  <div class="find_m2 position-absolute w-100">
+	    <div class="row find_2">
+     <div class="col-md-8">
+	   <div class="find_2l">
+	     
+	   </div>
+	 </div>
+	 <div class="col-md-4">
+	   <div class="find_2r bg-dark">
+	     <h1 class="text-white">Best Premium Flooring</h1>
+		 <p class="text-light mt-3">Parkett als Landhausdielen bringen mit ihrer ruhigen und edlen oder rustikalen Ausstrahlung eine besondere Atmosphäre in Ihr Zuhause. Der natürliche Charakter entsteht durch großzügige Formate. Eine wahlweise glatte, gebürstete oder gehobelte</p>
+		 <h6 class="mb-0 mt-4"><a class="button" href="#">Find more</a></h6>
+	   </div>
+	 </div>
+   </div>
+	  </div>
+   </div>
+ </div>
+</section>
+
+<section id="about_h" class="p_3">
+
+	<!-- Brand Partners Section -->
+		  
+	<div class="brand-partners">
+		<div class="containerBrand">
+		  <h2>Our Brand Partners</h2>
+		  <div class="marquee">
+			<img src="./Assets/BrandLogos/logo.png" alt="Brand 1" />
+			<img src="./Assets/BrandLogos/majestique-logo.jpg" alt="Brand 2" />
+			<img src="./Assets/BrandLogos/img_5.png" alt="Brand 3" />
+			<img src="./Assets/BrandLogos/images.png" alt="Brand 4" />
+			<img src="./Assets/BrandLogos/images.jpeg" alt="Brand 5" />
+			<img src="./Assets/BrandLogos/images (3).png" alt="Brand 6" />
+			<img src="./Assets/BrandLogos/images (2).png" alt="Brand 7" />
+			<img src="./Assets/BrandLogos/images (1).png" alt="Brand 8" />
+			<img src="./Assets/BrandLogos/sp@a.png" alt="Brand 9" />
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<!-- Our Product Partners Section -->
+	<div class="product-partners">
+	  <div class="containerBrand">
+		<h2>Our Product Partners</h2>
+		<div class="productmarquee">
+		  <img src="./Assets/ProductLogos/1.jpg" alt="Brand 1" />
+		  <img src="./Assets/ProductLogos/2.png" alt="Brand 2" />
+		  <img src="./Assets/ProductLogos/3.webp" alt="Brand 3" />
+		  <img src="./Assets/ProductLogos/4.jpeg" alt="Brand 4" />
+		  <img src="./Assets/ProductLogos/5.png" alt="Brand 5" />
+		  <img src="./Assets/ProductLogos/6.png" alt="Brand 6" />
+		  <img src="./Assets/ProductLogos/7.png" alt="Brand 7" />
+		  <img src="./Assets/ProductLogos/8.jpeg" alt="Brand 8" />
+		  <img src="./Assets/ProductLogos/9.jpeg" alt="Brand 9" />
+		  <img src="./Assets/ProductLogos/10.jpg" alt="Brand 10" />
+		  <img src="./Assets/ProductLogos/11.png" alt="Brand 11" />
+		</div>
+	  </div>
+	</div>
+	</section>
+
+
+
+<!-- <section id="blog_h" class="p_3">
+ <div class="container-xl">
+  <div class="row serv_h1 mb-4">
+     <div class="col-md-12">
+	  <h1 class="mb-0 font_50">Our Blog</h1>
+	  <hr class="mb-0 line">
+	 </div>
+  </div>
+  <div class="blog_1 row">
+	 <div class="col-md-4">
+	  <div class="blog_1im">
+	   <div class="blog_1im1 position-relative">
+	    <div class="blog_1im1i">
+	     <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img src="img/19.jpg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+	    </div>
+		 <div class="blog_1im1i1 position-absolute top-0 p-4 text-end w-100 h-100">
+	       <h6 class="mb-0 d-inline-block bg_brow text-white p-2  px-3">WALL</h6>
+	    </div>
+	   </div>
+	   <div class="blog_1im2 shadow_box p-4">
+	    <h5><a href="#">Aenean nonummy hendrerit mauris</a></h5>
+		<p>There are many variations of passages available but majority have suffered alteration</p>
+		<div class="blog_1im2i row">
+		 <div class="col-md-6 col-6">
+		  <div class="blog_1im2il">
+		   <h6 class="mb-0 fw-bold"><a class="col_brow" href="#"><img src="img/22.jpg" alt="abc" class="rounded-circle me-2" height="50" width="50"> Admin</a></h6>
+		  </div>
+		 </div>
+		 <div class="col-md-6 col-6">
+		  <div class="blog_1im2ir text-end">
+		   <h6 class="mb-0 text-muted font_14"><i class="fa fa-calendar me-1 col_brow"></i> 03 Jan, 2021</h6>
+		  </div>
+		 </div>
+		</div>
+	   </div> 
+	  </div>
+	 </div>
+<div class="col-md-4">
+	  <div class="blog_1im">
+	   <div class="blog_1im1 position-relative">
+	    <div class="blog_1im1i">
+	     <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img src="img/20.jpg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+	    </div>
+		 <div class="blog_1im1i1 position-absolute top-0 p-4 text-end w-100 h-100">
+	       <h6 class="mb-0 d-inline-block bg_brow text-white p-2  px-3">BEDROOM</h6>
+	    </div>
+	   </div>
+	   <div class="blog_1im2 shadow_box p-4">
+	    <h5><a href="#">Dignissim phasellus ultrices tellus</a></h5>
+		<p>There are many variations of passages available but majority have suffered alteration</p>
+		<div class="blog_1im2i row">
+		 <div class="col-md-6 col-6">
+		  <div class="blog_1im2il">
+		   <h6 class="mb-0 fw-bold"><a class="col_brow" href="#"><img src="img/23.jpg" alt="abc" class="rounded-circle me-2" height="50" width="50"> Admin</a></h6>
+		  </div>
+		 </div>
+		 <div class="col-md-6 col-6">
+		  <div class="blog_1im2ir text-end">
+		   <h6 class="mb-0 text-muted font_14"><i class="fa fa-calendar me-1 col_brow"></i> 04 Jan, 2021</h6>
+		  </div>
+		 </div>
+		</div>
+	   </div> 
+	  </div>
+	 </div>
+	 <div class="col-md-4">
+	  <div class="blog_1im">
+	   <div class="blog_1im1 position-relative">
+	    <div class="blog_1im1i">
+	     <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img src="img/21.jpg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+	    </div>
+		 <div class="blog_1im1i1 position-absolute top-0 p-4 text-end w-100 h-100">
+	       <h6 class="mb-0 d-inline-block bg_brow text-white p-2  px-3">FLOOR</h6>
+	    </div>
+	   </div>
+	   <div class="blog_1im2 shadow_box p-4">
+	    <h5><a href="#">Fusce suscipit varius mi cum sociis</a></h5>
+		<p>There are many variations of passages available but majority have suffered alteration</p>
+		<div class="blog_1im2i row">
+		 <div class="col-md-6 col-6">
+		  <div class="blog_1im2il">
+		   <h6 class="mb-0 fw-bold"><a class="col_brow" href="#"><img src="img/24.jpg" alt="abc" class="rounded-circle me-2" height="50" width="50"> Admin</a></h6>
+		  </div>
+		 </div>
+		 <div class="col-md-6 col-6">
+		  <div class="blog_1im2ir text-end">
+		   <h6 class="mb-0 text-muted font_14"><i class="fa fa-calendar me-1 col_brow"></i> 05 Jan, 2021</h6>
+		  </div>
+		 </div>
+		</div>
+	   </div> 
+	  </div>
+	 </div>
+	</div>
+ </div>
+</section> -->
+
+
+
+<section id="footer">
+	<div class="offer_m p_3 bg_backo">
+	 <div class="container-xl">
+	   <div class="footer_1 row">
+	  <div class="col-md-3">
+	   <div class="footer_1i">
+		 <h5 class="text-white">Newsletter</h5>
+	   <hr class="line">
+	   <p class="text-white-50">Seamlessly visualize quality intellectual ideal without collaboration superior montes soon maecenas capita idea listically</p>
+	   <div class="input-group p-2 bg_dark border_1 border-start-0 border-end-0 border-top-0">
+		   <input type="text" class="form-control border-0 rounded-0 bg-transparent text-light" placeholder="Email Address...">
+		   <span class="input-group-btn">
+			 <button class="btn btn-primary bg-transparent border-0" type="button">
+			   <i class="fa fa-long-arrow-right col_brow"></i> </button>
+		   </span>
+	   </div>
+	   </div>
+	  </div>
+	  <div class="col-md-3">
+	   <div class="footer_1i">
+		 <h5 class="text-white">Services</h5>
+	   <hr class="line">
+	   <div class="row footer_3ism">
+		 <h6 class="col-md-12 col-6"><a class="text-white-50" href="#"><i class="fa fa-chevron-right me-1 font_12 col_brow"></i> Tiles</a></h6>
+		 <h6 class="col-md-12 col-6 mt-2"><a class="text-white-50" href="#"><i class="fa fa-chevron-right me-1 font_12 col_brow"></i> Sink</a></h6>
+		 <h6 class="col-md-12 col-6 mt-2"><a class="text-white-50" href="#"><i class="fa fa-chevron-right me-1 font_12 col_brow"></i> CP Fittings</a></h6>
+		 <h6 class="col-md-12 col-6 mt-2"><a class="text-white-50" href="#"><i class="fa fa-chevron-right me-1 font_12 col_brow"></i> Briks</a></h6>
+		 <h6 class="col-md-12 col-6 mt-2"><a class="text-white-50" href="#"><i class="fa fa-chevron-right me-1 font_12 col_brow"></i> Adhesives</a></h6>
+		 <h6 class="col-md-12 col-6 mt-2 mb-0"><a class="text-white-50" href="#"><i class="fa fa-chevron-right me-1 font_12 col_brow"></i> Wellnes</a></h6>
+		 </div>
+	   </div>
+	  </div>
+	  <div class="col-md-3">
+	   <div class="footer_1i">
+		 <h5 class="text-white">Contact</h5>
+	   <hr class="line">
+	   <p class="text-white-50">Sr. No. 40/1, Marble Market, Near Shell Petrol Pump Ambegaon, Mumbai Pune Bypass Rd, Katraj, Pune, Maharashtra 411046</p>
+	   <h6><a class="text-white-50" href="#"><i class="fa fa-phone me-1 fs-5 col_brow align-middle"></i>1234567890</a></h6>
+	   <h6 class="mt-3"><a class="text-white-50" href="#"><i class="fa fa-envelope me-1 fs-5 col_brow align-middle"></i> info@gmail.com</a></h6>
+	   <h6 class="mt-3"><a class="text-white-50" href="#"><i class="fa fa-globe me-1 fs-5 col_brow align-middle"></i> info@gmail.com</a></h6>
+	   </div>
+	  </div>
+	  <div class="col-md-3">
+	   <div class="footer_1i">
+		 <h3><a class="text-white" href="index.html">Rangoli CERA</a></h3>
+
+		
+		 
+	   <hr class="line">
+	   <ul class="social-network social-circle mb-0">
+	   <li><a href="#" class="Facebook" title="Facebook"><i class="fa fa-pinterest"></i></a></li>
+	   <li><a href="#" class="Twitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+	   <li><a href="#" class="Linkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+	   </ul>
+	   </div>
+	  </div>
+	 </div>
+	  <div class="footer_2 row text-center mt-4 pt-4">
+	   <div class="col-md-12">
+		 <p class="mb-0 text-white-50">© 2024 Rangoli CERA Tiles. All Rights Reserved</a></p>
+	   </div>
+	  </div>
+	</div>
+	</div>
+   </section>
+
+<script src="js/common.js"></script>
+
+</body>
+
+
+</html>
